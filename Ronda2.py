@@ -2,7 +2,7 @@
 Este script realiza el análisis de clustering en un conjunto de datos utilizando los algoritmos K-Means y K-Medoids.
 
 Se siguen los siguientes pasos:
-1. Creación de datos sintéticos con tres grupos de puntos y un outlier.
+1. Creación de datos con tres grupos de puntos y un outlier.
 2. Concatenación de los datos y el outlier.
 3. Visualización de los datos originales.
 4. Aplicación del algoritmo K-Means para clustering.

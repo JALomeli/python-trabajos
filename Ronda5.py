@@ -1,5 +1,5 @@
 '''''
-"""
+
 Este script realiza el análisis de clustering en un conjunto de datos que incluye dos outliers, utilizando los algoritmos K-Means y K-Medoids.
 
 Se siguen los siguientes pasos:
