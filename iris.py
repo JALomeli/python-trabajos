@@ -1,3 +1,30 @@
+'''''
+Este codigo realiza el análisis de clustering en el conjunto de datos Iris utilizando los algoritmos K-Means y K-Medoids.
+
+Se siguen los siguientes pasos:
+1. Carga del conjunto de datos Iris.
+2. Normalización de los datos.
+3. Creación de un DataFrame para facilitar la visualización.
+4. Visualización de los datos originales 
+5. Aplicación del algoritmo K-Means para clustering.
+6. Visualización de los resultados de K-Means.
+7. Aplicación del algoritmo K-Medoids para clustering.
+8. Visualización de los resultados de K-Medoids.
+
+Librerías requeridas:
+- numpy
+- pandas
+- scikit-learn
+- sklearn_extra
+- matplotlib
+- seaborn
+
+Instrucciones:
+1. Asegúrate de tener instaladas las librerías requeridas.
+2. Ejecuta el script para ver las visualizaciones del análisis de clustering.
+
+'''''
+#Librerias requeridas
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans

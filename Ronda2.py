@@ -1,3 +1,28 @@
+'''''
+Este script realiza el análisis de clustering en un conjunto de datos utilizando los algoritmos K-Means y K-Medoids.
+
+Se siguen los siguientes pasos:
+1. Creación de datos sintéticos con tres grupos de puntos y un outlier.
+2. Concatenación de los datos y el outlier.
+3. Visualización de los datos originales.
+4. Aplicación del algoritmo K-Means para clustering.
+5. Visualización de los resultados del clustering con K-Means.
+6. Aplicación del algoritmo K-Medoids para clustering.
+7. Visualización de los resultados del clustering con K-Medoids.
+
+Librerías requeridas:
+- numpy
+- pandas
+- scikit-learn
+- sklearn_extra
+- matplotlib
+- seaborn
+
+Instrucciones:
+1. Asegúrate de tener instaladas las librerías requeridas.
+2. Ejecuta el script para ver las visualizaciones del análisis de clustering.
+
+'''''
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans

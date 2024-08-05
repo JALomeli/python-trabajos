@@ -1,3 +1,30 @@
+'''''
+"""
+Este script realiza el análisis de clustering en un conjunto de datos que incluye dos outliers, utilizando los algoritmos K-Means y K-Medoids.
+
+Se siguen los siguientes pasos:
+1. Creación de tres conjuntos de datos con distribuciones normales diferentes.
+2. Adición de dos outliers al conjunto de datos.
+3. Concatenación de los DataFrames para formar un único conjunto de datos.
+4. Visualización de los datos originales, incluyendo los outliers.
+5. Aplicación del algoritmo K-Means para clustering.
+6. Visualización de los resultados del clustering con K-Means.
+7. Aplicación del algoritmo K-Medoids para clustering.
+8. Visualización de los resultados del clustering con K-Medoids.
+
+Librerías requeridas:
+- numpy
+- pandas
+- scikit-learn
+- sklearn_extra
+- seaborn
+- matplotlib
+
+Instrucciones:
+1. Asegúrate de tener instaladas las librerías requeridas.
+2. Ejecuta el script para ver las visualizaciones del análisis de clustering, incluyendo el efecto de los outliers.
+
+'''''
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
